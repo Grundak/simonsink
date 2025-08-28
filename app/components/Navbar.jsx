@@ -1,13 +1,70 @@
+"use client";
 import Link from "next/link";
+import { useState, useEffect } from "react";
 
 export default function Navbar() {
+  const [darkMode, setDarkMode] = useState(false);
+  const [lang, setLang] = useState("EN");
+
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [darkMode]);
+
+  const toggleLang = () => setLang((prev) => (prev === "EN" ? "CS" : "EN"));
+
   return (
-    <nav className="w-full flex justify-center bg-red-300 text-white p-4">
-      <div className="flex gap-6">
-        <Link href="/" className="hover:text-gray-300">Home</Link>
-        <Link href="/gallery" className="hover:text-gray-300">Gallery</Link>
-        <Link href="/art" className="hover:text-gray-300">Art</Link>
-        <Link href="/contact" className="hover:text-gray-300">Contact</Link>
+    <nav className="w-full flex items-center bg-white text-black dark:bg-gray-900 dark:text-white p-4 relative">
+      {/* Nalevo */}
+      <div className="flex items-center">
+        <Link href="/" className="hover:text-gray-300 font-bold text-lg">Simon's Ink</Link>
+      </div>
+      {/* Uprostřed */}
+      <div className="absolute left-1/2 -translate-x-1/2 flex gap-4">
+        <Link href="/gallery" className="hover:text-gray-300">
+          {lang === "EN" ? "Gallery" : "Galerie"}
+        </Link>
+        <Link href="/art" className="hover:text-gray-300">
+          {lang === "EN" ? "Art" : "Umění"}
+        </Link>
+        <Link href="/contact" className="hover:text-gray-300">
+          {lang === "EN" ? "Contact" : "Kontakt"}
+        </Link>
+      </div>
+      {/* Napravo */}
+      <div className="flex items-center gap-2 ml-auto">
+        <button
+          onClick={() => setDarkMode((prev) => !prev)}
+          className="w-9 h-9 flex items-center justify-center rounded bg-gray-700 hover:bg-gray-600 dark:bg-gray-200 dark:text-black dark:hover:bg-gray-300"
+          aria-label="Toggle dark mode"
+        >
+          {darkMode ? (
+            // Sun icon for light mode
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <circle cx="12" cy="12" r="5" stroke="currentColor" strokeWidth="2" fill="currentColor"/>
+              <path stroke="currentColor" strokeWidth="2" d="M12 1v2m0 18v2m11-11h-2M3 12H1m16.95 7.07l-1.41-1.41M6.46 6.46L5.05 5.05m13.9 0l-1.41 1.41M6.46 17.54l-1.41 1.41"/>
+            </svg>
+          ) : (
+            // Moon icon for dark mode
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke="currentColor" strokeWidth="2" d="M21 12.79A9 9 0 1111.21 3a7 7 0 109.79 9.79z"/>
+            </svg>
+          )}
+        </button>
+        <button
+          onClick={toggleLang}
+          className="w-9 h-9 flex items-center justify-center rounded bg-gray-700 hover:bg-gray-600 dark:bg-gray-200 dark:text-black dark:hover:bg-gray-300"
+          aria-label="Toggle language"
+        >
+          {lang === "EN" ? (
+            <span className="font-bold text-xs">EN</span>
+          ) : (
+            <span className="font-bold text-xs">CS</span>
+          )}
+        </button>
       </div>
     </nav>
   );
