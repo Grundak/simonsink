@@ -1,9 +1,15 @@
-// tailwind.config.js
 module.exports = {
-  darkMode: "class", // 👈 musí tam být
-  content: ["./app/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  darkMode: "class",
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}"
+  ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        copper: ['Copperplate', 'serif'],
+      },
+    },
   },
   plugins: [],
 }
