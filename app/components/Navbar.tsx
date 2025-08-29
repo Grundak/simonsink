@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import "../fonts.css";
 
 export default function Navbar() {
   const [darkMode, setDarkMode] = useState(false);
@@ -21,8 +20,8 @@ export default function Navbar() {
     <nav className="w-full flex items-center bg-white text-black dark:bg-gray-900 dark:text-white p-4 relative">
       {/* Nalevo */}
       <div className="flex items-center">
-        <Link href="/" className="hover:text-gray-300 font-bold text-lg"
-        style={{ fontFamily: "Copperplate, sans-serif" }}
+        <Link href="/" className="hover:text-gray-300 font-bold uppercase text-2xl"
+        style={{ fontFamily: 'Copperplate, sans-serif' }}
         >Simon's Ink</Link>
       </div>
       {/* Uprostřed */}

@@ -1,5 +1,15 @@
+@font-face {
+  font-family: 'Copperplate';
+  src: url('/fonts/Copperplate.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
+
+
 
 :root {
     --background: #ffffff;
