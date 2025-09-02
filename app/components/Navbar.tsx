@@ -1,11 +1,12 @@
 "use client";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import { useLang } from "./LanguageContext";
 
 export default function Navbar() {
   const [darkMode, setDarkMode] = useState(false);
-  const [lang, setLang] = useState("EN");
   const [menuOpen, setMenuOpen] = useState(false);
+  const { lang, toggleLang } = useLang();
 
   useEffect(() => {
     if (darkMode) {
@@ -14,8 +15,6 @@ export default function Navbar() {
       document.documentElement.classList.remove("dark");
     }
   }, [darkMode]);
-
-  const toggleLang = () => setLang((prev) => (prev === "EN" ? "CS" : "EN"));
 
   return (
     <nav className="w-full flex items-center bg-white text-black dark:bg-black dark:text-white p-4 relative uppercase">
