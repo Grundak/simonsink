@@ -41,9 +41,6 @@ export default function Navbar() {
         <Link href="/gallery" className="hover:text-gray-300">
           {lang === "EN" ? "Gallery" : "Galerie"}
         </Link>
-        <Link href="/art" className="hover:text-gray-300">
-          {lang === "EN" ? "Art" : "Umění"}
-        </Link>
         <Link href="/contact" className="hover:text-gray-300">
           {lang === "EN" ? "Contact" : "Kontakt"}
         </Link>
