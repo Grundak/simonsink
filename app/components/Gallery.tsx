@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { motion } from "framer-motion";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
@@ -12,7 +13,15 @@ export default function Gallery({
   const [index, setIndex] = useState(0);
 
   return (
-    <section className="py-8" id="gallery">
+    <motion.section
+      initial={{ x: "100vw", opacity: 0 }}
+      animate={{ x: 0, opacity: 1 }}
+      exit={{ x: "-100vw", opacity: 0 }}
+      transition={{ duration: 0.6, ease: "easeInOut" }}
+      className="py-8"
+      style={{ overflow: "hidden" }}
+      id="gallery"
+    >
       <div
         className="
           grid
@@ -61,6 +70,6 @@ export default function Gallery({
         index={index}
         on={{ view: ({ index }) => setIndex(index) }}
       />
-    </section>
+    </motion.section>
   );
 }

@@ -1,11 +1,19 @@
 "use client";
 import { useLang } from "./components/LanguageContext";
+import { motion } from "framer-motion";
 
 export default function Home() {
   const { lang } = useLang();
 
   return (
-    <section className="flex flex-col items-center justify-center text-center py-8 dark:bg-black">
+    <motion.section
+      initial={{ x: "100vw", opacity: 0 }}
+      animate={{ x: 0, opacity: 1 }}
+      exit={{ x: "-100vw", opacity: 0 }}
+      transition={{ duration: 0.6, ease: "easeInOut" }}
+      className="flex flex-col items-center justify-center text-center py-8 dark:bg-black"
+      style={{ overflow: "hidden" }}
+    >
       <h1
         className="font-bold text-6xl mb-2 uppercase mt-18"
         style={{ fontFamily: "Copperplate, sans-serif" }}
@@ -22,7 +30,7 @@ export default function Home() {
           href="https://simons-ink.reservio.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block px-8 py-3 bg-black text-white text-2xl font-semibold uppercase rounded hover:bg-gray-800 transition dark:bg-white dark:text-black dark:hover:bg-gray-200"
+          className="inline-block px-8 py-3 bg-black text-white text-2xl font-semibold uppercase rounded hover:bg-gray-500 transition dark:bg-white dark:text-black dark:hover:bg-gray-200"
         >
           {lang === "EN" ? "Book here" : "Objednej se zde"}
         </a>
@@ -110,6 +118,6 @@ export default function Home() {
           </>
         )}
       </h2>
-    </section>
+    </motion.section>
   );
 }

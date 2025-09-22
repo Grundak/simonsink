@@ -65,8 +65,8 @@ export default function Footer() {
       <div className="text-xs mt-2">
         <p>
           {lang === "EN"
-            ? "© 2023 Simon's Ink. All rights reserved."
-            : "© 2023 Simon's Ink. Všechna práva vyhrazena."}
+            ? `© ${new Date().getFullYear()} Simon's Ink. All rights reserved.`
+            : `© ${new Date().getFullYear()} Simon's Ink. Všechna práva vyhrazena.`}
         </p>
       </div>
     </footer>

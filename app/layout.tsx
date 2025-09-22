@@ -1,19 +1,19 @@
+"use client";
 import { LangProvider } from "./components/LanguageContext";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import "./globals.css";
 import "./fonts.css";
-
-export const metadata = {
-  title: "My Art Website",
-  description: "Gallery, Art & Contact",
-};
+import { usePathname } from "next/navigation";
+import { AnimatePresence, motion } from "framer-motion";
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const pathname = usePathname();
+
   return (
     <html lang="en">
       <head>
@@ -27,7 +27,7 @@ export default function RootLayout({
       <body className="flex flex-col justify-center font-sans dark:bg-black">
         <LangProvider>
           <Navbar />
-          <main className="flex-1 container mx-auto p-6">{children}</main>
+              {children}
           <Footer />
         </LangProvider>
       </body>
