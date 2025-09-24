@@ -56,7 +56,7 @@ export default function ContactForm() {
         method="POST"
         className="flex flex-col gap-4 mb-10"
       >
-        <input type="hidden" name="access_key" value="TVŮJ_WEB3FORMS_KEY" />
+        <input type="hidden" name="access_key" value={process.env.NEXT_PUBLIC_WEB3FORMS_KEY} />
         <input
           type="text"
           name="name"
