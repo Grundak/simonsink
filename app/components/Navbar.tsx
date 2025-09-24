@@ -149,13 +149,6 @@ export default function Navbar() {
               {lang === "EN" ? "Gallery" : "Galerie"}
             </Link>
             <Link
-              href="/art"
-              onClick={() => setMenuOpen(false)}
-              className="hover:text-gray-300"
-            >
-              {lang === "EN" ? "Art" : "Umění"}
-            </Link>
-            <Link
               href="/contact"
               onClick={() => setMenuOpen(false)}
               className="hover:text-gray-300"
