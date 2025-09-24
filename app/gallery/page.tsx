@@ -12,7 +12,7 @@ const files = fs
 
 const images = files.map((file) => ({
   src: `/images/gallery/${file}`,
-  alt: file,
+  alt: `Originální tetování od Šimona Holomka – ukázka motivu ${file.replace(/\.[^/.]+$/, "")} | Tattoo Gallery Brno a Neon Spot Hodonín | Precizní práce, kreativní návrhy, profesionální tetování.`,
 }));
 
 export default function GalleryPage() {

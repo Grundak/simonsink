@@ -1,6 +1,7 @@
 "use client";
 import { useLang } from "./LanguageContext";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function ContactForm() {
   const { lang } = useLang();
@@ -107,6 +108,18 @@ export default function ContactForm() {
             <strong>{labels[lang].ico}:</strong> {info.ico}
           </li>
         </ul>
+      </div>
+            <div className="mt-12 flex justify-center">
+        <Link
+          href="/about"
+          className="inline-flex items-center px-6 py-3 rounded-full bg-black text-white dark:bg-white dark:text-black text-xl font-semibold shadow hover:bg-gray-700 dark:hover:bg-gray-200 transition"
+          aria-label={lang === "EN" ? "About me" : "O mně"}
+        >
+          {lang === "EN" ? "About me" : "O mně"}
+          <span className="ml-3">
+            <i className="fa-solid fa-arrow-right"></i>
+          </span>
+        </Link>
       </div>
     </motion.section>
   );

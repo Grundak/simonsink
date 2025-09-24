@@ -3,6 +3,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
+import Link from "next/link";
 
 export default function Gallery({
   images,
@@ -70,6 +71,18 @@ export default function Gallery({
         index={index}
         on={{ view: ({ index }) => setIndex(index) }}
       />
+            <div className="mt-12 flex justify-center">
+        <Link
+          href="/contact"
+          className="inline-flex items-center px-6 py-3 rounded-full bg-black text-white dark:bg-white dark:text-black text-xl font-semibold shadow hover:bg-gray-700 dark:hover:bg-gray-200 transition"
+          aria-label="Přejít na kontakt"
+        >
+          Kontakt
+          <span className="ml-3">
+            <i className="fa-solid fa-arrow-right"></i>
+          </span>
+        </Link>
+      </div>
     </motion.section>
   );
 }

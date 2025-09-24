@@ -1,6 +1,7 @@
 "use client";
 import { useLang } from "./components/LanguageContext";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Home() {
   const { lang } = useLang();
@@ -32,7 +33,7 @@ export default function Home() {
           rel="noopener noreferrer"
           className="inline-block px-8 py-3 bg-black text-white text-2xl font-semibold uppercase rounded hover:bg-gray-500 transition dark:bg-white dark:text-black dark:hover:bg-gray-200"
         >
-          {lang === "EN" ? "Book here" : "Objednej se zde"}
+          {lang === "EN" ? "Book here" : "Objednej se"}
         </a>
       </div>
       <div className="flex gap-6 justify-center items-center text-2xl mb-8 my-8">
@@ -118,6 +119,19 @@ export default function Home() {
           </>
         )}
       </h2>
+
+      <div className="mt-12 flex justify-center">
+        <Link
+          href="/gallery"
+          className="inline-flex items-center px-6 py-3 rounded-full bg-black text-white dark:bg-white dark:text-black text-xl font-semibold shadow hover:bg-gray-700 dark:hover:bg-gray-200 transition"
+          aria-label={lang === "EN" ? "Go to gallery" : "Přejít do galerie"}
+        >
+          {lang === "EN" ? "Gallery" : "Galerie"}{" "}
+          <span className="ml-3">
+            <i className="fa-solid fa-arrow-right"></i>
+          </span>
+        </Link>
+      </div>
     </motion.section>
   );
 }
