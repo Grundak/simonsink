@@ -4,12 +4,14 @@ import { motion } from "framer-motion";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import Link from "next/link";
+import { useLang } from "./LanguageContext";
 
 export default function Gallery({
   images,
 }: {
   images: { src: string; alt: string }[];
 }) {
+  const { lang } = useLang();
   const [open, setOpen] = useState(false);
   const [index, setIndex] = useState(0);
 
@@ -77,7 +79,7 @@ export default function Gallery({
           className="inline-flex items-center px-6 py-3 rounded-full bg-black text-white dark:bg-white dark:text-black text-xl font-semibold shadow hover:bg-gray-700 dark:hover:bg-gray-200 transition"
           aria-label="Přejít na kontakt"
         >
-          Kontakt
+          {lang === "EN" ? "Contact" : "Kontakt"}
           <span className="ml-3">
             <i className="fa-solid fa-arrow-right"></i>
           </span>
