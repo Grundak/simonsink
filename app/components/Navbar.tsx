@@ -124,9 +124,9 @@ export default function Navbar() {
           aria-label="Toggle language"
         >
           {lang === "EN" ? (
-            <span className="font-bold text-xs">EN</span>
-          ) : (
             <span className="font-bold text-xs">CS</span>
+          ) : (
+            <span className="font-bold text-xs">EN</span>
           )}
         </button>
       </div>
