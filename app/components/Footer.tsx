@@ -53,7 +53,7 @@ export default function Footer() {
             +420 735 963 200
           </a>
         </li>
-        <li>U Červených domků 2975/32, 695 01, Hodonín</li>
+        <li>Vídeňská 22b, 639 00, Brno</li>
         <li>IČO: 21072035</li>
       </ol>
       <Link
