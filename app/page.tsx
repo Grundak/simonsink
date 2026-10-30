@@ -83,15 +83,6 @@ export default function Home() {
               className="font-semibold hover:text-gray-400"
             >
               Tattoo Gallery Brno
-            </a>{" "}
-            and in{" "}
-            <a
-              href="https://share.google/UP58SqJFcTY4Lidea"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold hover:text-gray-400"
-            >
-              Neon Spot Hodonín
             </a>
             .
           </>
@@ -105,15 +96,6 @@ export default function Home() {
               className="font-semibold hover:text-gray-400"
             >
               Tattoo Gallery Brno
-            </a>{" "}
-            a v{" "}
-            <a
-              href="https://share.google/UP58SqJFcTY4Lidea"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold hover:text-gray-400"
-            >
-              Neon Spot Hodonín
             </a>
             .
           </>
