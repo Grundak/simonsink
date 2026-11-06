@@ -35,7 +35,7 @@ export default function ContactForm() {
 
   const info = {
     person: "Ing. Šimon Holomek",
-    address: "U Červených domků 2975/32, 695 01, Hodonín",
+    address: "Vídeňská 22b, 639 00, Brno",
     phone: "+420 735 963 200",
     mail: "simons.ink@email.cz",
     ico: "21072035",

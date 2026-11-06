@@ -1,0 +1,1010 @@
+{
+  "CS": [
+    {
+      "id": "preparation",
+      "title": "Příprava před tetováním",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "U větších tetování rozhodně nepodceňuj přípravu. Dopřej si dostatek spánku, kvalitní stravu a den předem se vyhni alkoholu. Tvoje tělo bude potřebovat energii a dobrou kondici."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pozor na nemoci. I silná rýma nebo začínající kašel jsou důvodem k odložení termínu. Je mnohem lepší se omluvit v den tetování, než přijít do studia s bacilem. Nejde jen o tvé pohodlí, ale také o zdraví ostatních."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pokud máš pochybnosti ohledně čehokoli, zeptej se. Stejně tak mě předem informuj o dlouhodobém užívání léků, například antidepresiv nebo léků na ředění krve (nikdy kvůli tetování svévolně nevysazuj předepsané léky). Totéž platí pro chronická onemocnění a alergie. Většinou to není překážkou, ale některé léky a zdravotní komplikace mohou ovlivnit průběh tetování i následné hojení a potřebuji to vědět."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tetování osob mladších 18 let přijímám výhradně se souhlasem obou rodičů."
+        }
+      ]
+    },
+    {
+      "id": "pain",
+      "title": "Bolest a jak se na ni připravit",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Každý člověk reaguje na bolest jinak. Někoho bolí více nohy než ruce, někoho tetování téměř nebolí a někdo je citlivý prakticky kdekoli."
+        },
+        {
+          "type": "paragraph",
+          "text": "Z toho se dá vyvodit jeden univerzální přístup, který doporučuji každému, kdo má z bolesti obavy: nestresuj se dopředu tím, jestli to bude bolet, nebo nebude."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bolest se dá vydržet. A téměř každý vystresovaný klient nakonec uzná, že se stresoval zbytečně a že samotné tetování bylo snesitelnější, než očekával. Snaž se proto udržet mentální pohodu, nevytvářej si dopředu vlastní katastrofické scénáře a nenech se zbytečně ovlivnit zkušenostmi ostatních."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nejlepší způsob, jak se s bolestí vypořádat, začíná přípravou - kvalitní spánek, klidový režim a psychická pohoda."
+        },
+        {
+          "type": "paragraph",
+          "text": "Co se týče prostředků na tlumení bolesti, osobně nedoporučuji experimentovat s různými znecitlivujícími mastmi a spreji s lidokainem - efekt po hodině odezní a bolest se dostaví. Užívání běžně dostupných léků proti bolesti jako třeba Ibalgin, je dle mého názoru přijatelná varianta jak v průběhu tlumit bolest (samozřejmě v rozumných dávkách a jenom pokud nehrozí kolize s jinými léky)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pokud jsi zvyklý užívat nikotin, osobně to nepovažuji za překážku. Jiné návykové látky nebo drogy k tlumení bolesti ale rozhodně nedoporučuji. Na tetování přijď jedině střízlivý."
+        },
+        {
+          "type": "paragraph",
+          "text": "Obecně platí, že nejcitlivější bývají extrémně měkká místa, například břicho, krk nebo podpaží. Nebo naopak místa, kde je kost těsně pod kůží, například klouby nebo nárt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kdybych měl bolest k něčemu připodobnit, je to jako škrábat kůži ostrým hřebíkem…"
+        }
+      ]
+    },
+    {
+      "id": "tattoo-day",
+      "title": "Den tetování",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Doporučuji pár dní předem tatérovi napsat a potvrdit si, že s tebou opravdu počítá. Zvlášť pokud jste se na termínu domluvili už dávno. Mně se to sice nestává, ale ze zkušenosti vím, že chybička se může vloudit na obou stranách."
+        },
+        {
+          "type": "paragraph",
+          "text": "V den tetování bys neměl zásadně měnit svou každodenní rutinu. Pokud jsi zvyklý snídat, normálně se nasnídej. Pokud nesnídáš, nezačínej s tím jen proto, že ti to někdo doporučil. Káva je za mě v pořádku, pokud zároveň dodržuješ pitný režim a nejsi dehydratovaný."
+        },
+        {
+          "type": "paragraph",
+          "text": "Do studia přijď včas, ale nedoporučuji chodit příliš brzy. Přibližně pět minut před termínem je ideální. Pokud dorazíš o půl hodiny dříve, tatér pravděpodobně nebude nadšený. Může se zrovna připravovat, uklízet nebo si dávat snídani."
+        },
+        {
+          "type": "paragraph",
+          "text": "Doporučuji přijít v tmavém pohodlném oblečení. Pokud budeme tetovat celou ruku až k rameni, ideální je například tílko. Při tetování nohou zase oceníš černé kraťasy."
+        },
+        {
+          "type": "paragraph",
+          "text": "S tatérem komunikuj všechny své obavy. Neboj se na cokoli zeptat."
+        }
+      ]
+    },
+    {
+      "id": "session",
+      "title": "Jak probíhá samotné tetování",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tetování může někdy trvat několik hodin. U celodenního sezení počítám přibližně se sedmi hodinami samotného tetování, které jsou rozdělené jen krátkými pauzami."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nabitý mobil, nebo kniha se ti mohou hodit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Já osobně si s klienty většinu času povídám, pokud jim to vyhovuje. Při delších sezeních také rád pouštím filmy. Pokud ale preferuješ klid a nechceš si povídat, naprosto to respektuji."
+        }
+      ]
+    },
+    {
+      "id": "immediate-aftercare",
+      "title": "Péče bezprostředně po tetování",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Po tetování bych si na zbytek dne už nic zásadního neplánoval. Nejlepší je jít domů, kvalitně se najíst a odpočívat."
+        },
+        {
+          "type": "paragraph",
+          "text": "Čerstvé tetování je poraněná kůže, která potřebuje čas a vhodné podmínky k regeneraci (podrobně na konci textu‎). Nedoporučuji proto zbytečně komplikovat hojení nadměrnou fyzickou zátěží, alkoholem nebo nevhodným prostředím."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "title": "Cena a platba",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Před začátkem tetování je dobré si společně stanovit cenový rámec nebo maximální rozpočet."
+        },
+        {
+          "type": "paragraph",
+          "text": "Můj aktuální ceník najdeš na Instagramu. Každé tetování ale oceňuji individuálně, takže se na konkrétní ceně vždy musíme domluvit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Co se týče platby, osobně nemám problém s hotovostí ani s QR platbou."
+        },
+        {
+          "type": "paragraph",
+          "text": "Obecně platí, že cena často odráží kvalitu. Pokud chceš, aby tvoje tetování vypadalo opravdu dobře a očekáváš profesionální přístup, pravděpodobně to nebude nejlevnější záležitost."
+        },
+        {
+          "type": "paragraph",
+          "text": "Naopak pokud je pro tebe prioritou co nejnižší cena a nevadí ti riziko, že výsledek nebude podle tvých představ, že tatér nebude mít dostatek zkušeností nebo že budeš muset tetování v budoucnu opravovat, určitě najdeš i levnější alternativy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Začínajících i méně zkušených tatérů je spousta, takže v tomto ohledu nebudeš mít problém s výběrem."
+        }
+      ]
+    },
+    {
+      "id": "design-and-placement",
+      "title": "Motiv, velikost a umístění",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "U mě konkrétně platí, že můžeš přijít i s vlastním motivem. Pokud je technicky proveditelný a dává smysl jako tetování, nemám problém tetovat návrh, který jsem sám nevytvořil."
+        },
+        {
+          "type": "paragraph",
+          "text": "Motivy vygenerované umělou inteligencí jsou pro mě také přijatelné. Obvykle je ale potřeba některé věci upravit. Nejčastěji jde o přílišné množství detailů nebo anatomické chyby, kterých se umělá inteligence někdy dopouští."
+        },
+        {
+          "type": "paragraph",
+          "text": "Je ale spousta tatérů, kteří tetují výhradně vlastní návrhy, nebo odmítají motivy vytvořené umělou inteligencí nebo okopírované z Pinterestu a internetových zdrojů. Doporučuji si proto vždy předem ověřit, zda je konkrétní tatér ochotný tvůj požadavek splnit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Velikost a umístění jsou někdy klíčové pro to, aby motiv vypadal dobře. Je samozřejmě ideální, když máš představu, kde chceš tetování mít. Zároveň je ale dobré nechat si poradit od někoho, kdo už má s kompozicí a umístěním motivů zkušenosti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nenech se ale natlačit do ničeho, s čím se ve výsledku nebudeš ztotožňovat. Já osobně preferuji přístup, kdy musí být klient maximálně spokojený s motivem, jeho velikostí i umístěním ještě předtím, než začneme tetovat."
+        },
+        {
+          "type": "paragraph",
+          "text": "Než se pustíme do samotného tetování, vždy nejprve na kůži aplikujeme šablonu. To je důležitý moment, kdy můžeš vidět, jak bude tetování na tvém těle skutečně vypadat. Věnuj tomu dostatek času. Zkontroluj správnost textu, velikost, umístění i celkový dojem. Pokud chceš cokoli změnit, právě teď je ten správný okamžik."
+        }
+      ]
+    },
+    {
+      "id": "creating-your-design",
+      "title": "Tvorba motivu",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Konzultace je možná osobně ve studiu, což dává smysl zejména u větších a komplikovanějších projektů. Stejně tak ale můžeme všechno vyřešit online."
+        },
+        {
+          "type": "paragraph",
+          "text": "Čím podrobnější popis své představy mi poskytneš, tím lépe pochopím, co očekáváš, a tím lépe budu schopen tvé představy naplnit. Neboj se proto rozepsat. Klidně přilož fotografie, videa nebo jiné vizuální reference, které mi pomohou pochopit co se ti líbí."
+        },
+        {
+          "type": "paragraph",
+          "text": "Zároveň s motivem je potřeba rovnou domluvit termín tetování."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pokud preferuješ osobní konzultaci, společně si sedneme, vyslechnu tě, zapíšu si všechno podstatné, domluvíme termín, navrhnu možné varianty provedení a případně nastíním, jak by mohl výsledný motiv vypadat."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kompletní návrh ale následně tvořím až o samotě. Potřebuji na to klid, soustředění a prostor, abych mohl všechno promyslet a zpracovat podle svého nejlepšího úsudku."
+        },
+        {
+          "type": "paragraph",
+          "text": "Motivy vytvářím vždy několik dní před smluveným termínem tetování - klientům vždy posílám vizualizaci. Bez domluveného termínu návrhy zpravidla netvořím."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pokud má pro tebe tetování osobní význam, rád se o něm dozvím. Pomůže mi to pochopit, co je pro tebe důležité, co bych měl při navrhování zdůraznit, co naopak vynechat a na co se zaměřit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Osobní význam může být někdy dobrým vodítkem při tvorbě motivu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pokud ale tvoje tetování žádný hlubší význam nenese, je to naprosto v pořádku. Sám mám spoustu tetování bez konkrétního významu a vnímám je jednoduše jako vizuální prvek na těle."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tetování tedy význam mít může, ale vůbec nemusí. Ani jedna varianta není lepší než druhá."
+        },
+        {
+          "type": "paragraph",
+          "text": "Připomenu také, že malé komplikované tetování s mnoha detaily může zabrat stejnou dobu práce jako velké jednoduché tetování bez detailů. Cena bude stejná, ale na první pohled to může být matoucí."
+        }
+      ]
+    },
+    {
+      "id": "tattoo-styles",
+      "title": "Jaké motivy tetuji",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Já osobně tetuji především motivy založené na detailech. Mám rád detailní realismus a velmi rád ho kombinuji s geometrickými prvky."
+        },
+        {
+          "type": "paragraph",
+          "text": "Preferuji vzdušnější kompozice, ve kterých respektuji volné místo mezi jednotlivými motivy. Nemám potřebu vyplnit každé volné místo barvou nebo dalšími prvky. Negativní prostor je pro mě stejně důležitý jako samotné tetování."
+        },
+        {
+          "type": "paragraph",
+          "text": "Na mém instagramovém portfoliu je tento přístup poměrně dobře patrný."
+        },
+        {
+          "type": "paragraph",
+          "text": "Zároveň mám rád i menší tetování, jako jsou nápisy, abstraktní tahy, symboly nebo anime motivy. Vlastně rád tetuji téměř všechno, s výjimkou barevného realismu."
+        }
+      ]
+    },
+    {
+      "id": "longevity",
+      "title": "Jemné linky, drobné detaily a životnost tetování",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Co se týče extra jemných prvků, jako jsou tenké linky, tečky, jemné stínování nebo velmi drobné detaily, rozhodně se jim nevyhýbám."
+        },
+        {
+          "type": "paragraph",
+          "text": "Řekl bych, že technika, kterou tento typ tetování vytvářím, je spolehlivá. Dokážu pracovat s jemnými prvky tak, aby tetování po zahojení neztrácelo svou kvalitu a jednotlivé detaily zůstaly zachované."
+        },
+        {
+          "type": "paragraph",
+          "text": "Je ale důležité počítat se zásadním faktorem: tetování se v průběhu let přirozeně mění. Pigment v kůži je postupně ovlivňován imunitním systémem, slunečními paprsky a dalšími biologickými procesy. Jeho sytost, ostrost i celková struktura se proto časem mění."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kůže není papír. I když se snažíme vytvořit tetování co nejstabilnější, po deseti nebo dvaceti letech budou změny patrné."
+        },
+        {
+          "type": "paragraph",
+          "text": "U jemných stínů, tenkých linek a miniaturních motivů bývají tyto změny viditelnější než u větších, výraznějších a jednodušších tetování."
+        },
+        {
+          "type": "paragraph",
+          "text": "Neznamená to, že jemné tetování nemá smysl nebo že nevydrží. Jen je potřeba mít realistická očekávání a počítat s tím, že jeho vzhled se bude v průběhu života přirozeně vyvíjet."
+        }
+      ]
+    },
+    {
+      "id": "client-approach",
+      "title": "Můj přístup ke klientům",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Zakládám si na profesionálním přístupu a maximální spokojenosti svých klientů."
+        },
+        {
+          "type": "paragraph",
+          "text": "Snažím se každému vyhovět, ale pokud vím, že nejsem schopný splnit konkrétní požadavek podle představ klienta, raději to přiznám a od projektu ustoupím, než abychom museli dělat nepříjemné kompromisy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Preferuji radikální oboustrannou upřímnost."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ve své práci jsem pečlivý, poctivý a rád si všechno plánuji dopředu. Návrhy posílám klientům pár dní před termínem, abychom měli dostatek času na případné úpravy."
+        },
+        {
+          "type": "paragraph",
+          "text": "V den tetování jsem ve studiu vždy dříve než klient a všechno si předem připravím. Klientům nabízím kávu a jejich komfort je pro mě důležitý."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nevadí mi, pokud s tebou do studia přijde doprovod. Z organizačních důvodů ale není vhodné přivádět více než jednoho člověka, aktivního psa nebo malé dítě."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mým cílem není pouze vytvořit hezké tetování. Chci, aby celý proces od prvotní komunikace až po samotnou realizaci proběhl tak, abychom byli oba s výsledkem maximálně spokojený."
+        }
+      ]
+    },
+    {
+      "id": "materials",
+      "title": "S čím pracuji",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Co se týče vybavení a materiálů, které při tetování používám- vybírám si produkty s důrazem na kvalitu, bezpečnost a dohledatelnost jejich původu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Preferuji výrobky splňující příslušné evropské normy. Nejsem zastáncem levných a pochybných produktů bez jasného původu, složení nebo informací o výrobci."
+        },
+        {
+          "type": "paragraph",
+          "text": "Evropská unie v posledních letech výrazně zpřísnila regulaci chemických látek používaných v tetovacích barvách a podle mně je to krok správným směrem. Nařízení REACH omezuje tisíce nebezpečných látek na základě vědeckých studií, které odhalily přítomnost potenciálně nebezpečných látek, například karcinogenních aromatických aminů, těžkých kovů a dalších nežádoucích příměsí. Cílem regulace je omezit používání rizikových chemických látek, zvýšit bezpečnost tetovacích barev a lépe chránit zdraví klientů."
+        },
+        {
+          "type": "paragraph",
+          "text": "Používám výhradně barvy určené pro evropský trh a splňující REACH."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pro představu, tetovací barva není jen samotný pigment. Jedná se o směs několika složek, jejichž přesné složení se liší podle výrobce a konkrétního odstínu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Černá barva obvykle využívá jako pigment saze.Bílá barva nejčastěji obsahuje oxid titaničitý.Červené barvy mohou obsahovat různé organické pigmenty, například azo pigmenty nebo chinakridony."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vedle samotných pigmentů obsahují barvy také nosnou kapalinu, jejímž základem bývá voda. Dále mohou obsahovat glycerin, propylenglykol nebo alkohol, které pomáhají upravit konzistenci a vlastnosti směsi. Podle konkrétního výrobku se přidávají také dispergační látky, stabilizátory, konzervační látky a regulátory pH."
+        },
+        {
+          "type": "paragraph",
+          "text": "Proto je důležité vědět, odkud barva pochází a co přesně obsahuje."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pracovní másla, jehly, rukavice a další spotřební materiál vybírám od ověřených výrobců, kteří mají na trhu určité renomé a jejichž výrobky splňují odpovídající bezpečnostní požadavky."
+        },
+        {
+          "type": "paragraph",
+          "text": "Přece jenom všechno, s čím při práci zacházím, přichází do kontaktu s narušenou lidskou kůží. Od materiálů, které používám, proto vyžaduji odpovídající kvalitu."
+        }
+      ]
+    },
+    {
+      "id": "aftercare",
+      "title": "Jak řeším následnou péči (Aftercare)",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Na většinu čerstvých tetování aplikuji hojivou fólii známou jako Second Skin."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jedná se o speciální průhlednou zdravotnickou fólii, která funguje jako ochranné krytí. Vydrží na kůži nalepená několik dní. Podobné typy fólií se používají při ošetřování popálenin."
+        },
+        {
+          "type": "paragraph",
+          "text": "Na čerstvé tetování funguje velmi dobře. Vytváří ochrannou bariéru proti vnějším nečistotám a zároveň umožňuje pokožce přirozeně regenerovat. Pod fólií se může hromadit malé množství tkáňového moku (plazmy) smíchaného se zbytky barvy. To je během prvních dnů běžná žádoucí součást hojení."
+        },
+        {
+          "type": "paragraph",
+          "text": "Někdy ale vyhodnotím, že je vhodnější použít savé krytí (plenu). Typicky u větších motivů, u kterých je pokožka výrazněji narušená a může produkovat větší množství tkáňového moku. V takovém případě nemusí být uzavřená hojivá fólie ideální volbou."
+        },
+        {
+          "type": "paragraph",
+          "text": "Oba způsoby mám mnohokrát vyzkoušené a osvědčené."
+        },
+        {
+          "type": "heading",
+          "text": "Pokud ode mě dostaneš savé krytí (plenu):"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nech ho na tetování přes noc. Ráno ho opatrně sundej, tetování omyj vlažnou vodou a jemným neparfémovaným mýdlem. Poté ho nech oschnout nebo jemně osuš čistým ručníkem a nanes prvni vrstvu hojivého krému."
+        },
+        {
+          "type": "heading",
+          "text": "Pokud ode mě dostaneš hojivou fólii Second Skin:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fólii ničím nepřelepuj a nenarušuj její povrch. Odlepit za 1–3 dny. Krátké sprchování s folií je ok."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pokud se fólie výrazně odlepuje, dostane se pod ni voda nebo začne pokožku dráždit, je potřeba ji odlepit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Po odstranění fólie tetování omyj vlažnou vodou a neparfémovaným mýdlem jemně osuš čistým ručníkem. První vrstvu hojivého krému nanes až několik hodin po odlepení, nebo klidně až následující den."
+        },
+        {
+          "type": "heading",
+          "text": "Další péče bez krytí:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sprchování je v pořádku. Vyhni se ale horké vodě a dlouhému máčení ve vaně."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tetování udržuj v suchu a v čistotě a chraň ho před zbytečným třením a kontaktem s nečistými povrchy. Pokud je potřeba ho zakrýt, použij čisté bavlněné oblečení."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jako hojivý krém použij ideálně Bepanthen Tattoo (případně jiný Bepanthen) nebo jiný krém určený přímo pro péči o čerstvé tetování."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dvakrát denně aplikuj jen tenkou vrstvu a dobře ji rozetři. Není potřeba tetování krémem často přemazávat. Příliš silná vrstva může pokožku zbytečně rozmáčet. Hojivý krém používej přibližně 7 dní, poté doporučuju přejít na jakýkoliv obyčejný hydratační krém."
+        },
+        {
+          "type": "paragraph",
+          "text": "Na čerstvé tetování nedoporučuji používat vazelínu, domácí konopné masti nebo Indulonu. Tyto krémy jsou vhodné až po prvním týdnu kdy už je potřeba tetování pouze hydratovat."
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "title": "Sport, odpočinek a běžný režim",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "První dva dny se vyhni sportovním aktivitám."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dávej pozor především na nadměrné pocení, tření a napínání potetované pokožky. Vyhni se také aktivitám v prostředí, kde může čerstvé tetování přijít do kontaktu s nečistými povrchy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Třetí den od tetování považuji za nejčasnější možný termín pro návrat k lehké fyzické aktivitě. Vždy ale záleží na rozsahu tetování, jeho umístění, průběhu hojení a intenzitě sportu, bez kterého déle nevydržíš."
+        },
+        {
+          "type": "paragraph",
+          "text": "Musíš ale přemýšlet nad prostředím. Pokud máš tři dny čerstvé tetování, není dobrý nápad hrát plážový volejbal na přímém slunci, plavat, nebo spárovat v ringu. Naopak lehký běh nebo posilování v čistém prostředí jsou přijatelné."
+        }
+      ]
+    },
+    {
+      "id": "sun-and-water",
+      "title": "Sauna, koupání a slunce",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Saunování a koupání doporučuji vynechat alespoň na dobu čtyř týdnů, ideálně až do úplného zahojení pokožky."
+        },
+        {
+          "type": "paragraph",
+          "text": "Stejně tak se vyhýbej přímému slunci a soláriu. U slunce platí jednoduché pravidlo: čím déle čerstvé tetování můžeš schovávat před sluncem, tím lépe."
+        },
+        {
+          "type": "paragraph",
+          "text": "Povrchové zahojení tetování obvykle trvá několik týdnů, ale hlubší regenerace pokožky pokračuje ještě několik měsíců."
+        },
+        {
+          "type": "paragraph",
+          "text": "Opalování obecně neprospívá ani pokožce, ani životnosti tetování. UV záření může postupně způsobovat blednutí pigmentu a zhoršovat vzhled motivu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jakmile je tetování na povrchu zahojené (7 dní) doporučuji při pobytu na slunci používat opalovací krém s SPF 50."
+        }
+      ]
+    },
+    {
+      "id": "healing-concerns",
+      "title": "Když se objeví problém",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Pokud se během hojení objeví jakékoli komplikace, neobvyklé reakce nebo si jednoduše nebudeš jistý, jestli všechno probíhá správně, napiš mi nebo zavolej."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rád ti poradím a pomůžu situaci vyřešit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pokud by se objevil hnisavý výtok, horečka nebo jiné známky infekce, nečekej na mou odpověď a kontaktuj lékaře."
+        },
+        {
+          "type": "paragraph",
+          "text": "Správná péče o tetování je společná práce. Já se postarám o kvalitní provedení a vhodné krytí, ty zase o to, aby mělo tetování během hojení co nejlepší podmínky. Tvým přístupem k procesu hojení ovlivníš to, jak tvoje tetování bude vypadat po zbytek života."
+        }
+      ]
+    }
+  ],
+  "EN": [
+    {
+      "id": "preparation",
+      "title": "Preparing for Your Tattoo",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "For larger tattoos, don’t underestimate the importance of preparation. Get enough sleep, eat well, and avoid alcohol the day before your appointment. Your body will need energy and to be in good condition."
+        },
+        {
+          "type": "paragraph",
+          "text": "Be careful not to come in sick. Even a bad cold or the beginning of a cough is a good reason to reschedule. It is much better to let me know on the day of your appointment that you cannot make it than to come into the studio while carrying an infection. This is not just about your own comfort, but also about the health of others."
+        },
+        {
+          "type": "paragraph",
+          "text": "If you have any concerns or questions, just ask. Please also let me know in advance if you take any medication long-term, such as antidepressants or blood thinners (never stop taking prescribed medication on your own just because you are getting a tattoo). The same applies to chronic medical conditions and allergies. These are usually not a problem, but certain medications and health conditions can affect the tattooing process and the healing afterwards, so I need to know about them."
+        },
+        {
+          "type": "paragraph",
+          "text": "I only tattoo people under the age of 18 with the consent of both parents."
+        }
+      ]
+    },
+    {
+      "id": "pain",
+      "title": "Pain and How to Prepare for It",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Everyone experiences pain differently. Some people find their legs more painful than their arms, some barely feel the tattooing process, while others are sensitive almost everywhere."
+        },
+        {
+          "type": "paragraph",
+          "text": "This leads to one general piece of advice that I recommend to anyone who is worried about pain: don’t stress in advance about whether it will hurt or not."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pain is manageable. Almost every stressed client eventually admits that they worried unnecessarily and that the tattoo itself was more bearable than they expected. Try to stay relaxed, don’t create worst-case scenarios in your head beforehand, and don’t let other people’s experiences influence you unnecessarily."
+        },
+        {
+          "type": "paragraph",
+          "text": "The best way to deal with pain starts with proper preparation: good sleep, a relaxed routine, and a positive state of mind."
+        },
+        {
+          "type": "paragraph",
+          "text": "When it comes to pain relief, I personally don’t recommend experimenting with various numbing creams or lidocaine sprays. Their effect wears off after about an hour, and the pain will eventually catch up with you. In my opinion, using common over-the-counter painkillers such as Ibalgin is an acceptable option for managing pain during the session (of course, in reasonable doses and only if there is no risk of interaction with other medication)."
+        },
+        {
+          "type": "paragraph",
+          "text": "If you are used to using nicotine, I personally don’t consider it an obstacle. However, I definitely don’t recommend using other addictive substances or recreational drugs to manage pain. You must arrive for your tattoo completely sober."
+        },
+        {
+          "type": "paragraph",
+          "text": "In general, the most sensitive areas tend to be extremely soft areas, such as the stomach, neck, or armpits. The opposite can also be true for areas where the bone lies close to the skin, such as joints or the top of the foot."
+        },
+        {
+          "type": "paragraph",
+          "text": "If I had to compare the pain to something, I would describe it as having your skin scratched with a sharp nail…"
+        }
+      ]
+    },
+    {
+      "id": "tattoo-day",
+      "title": "The Day of Your Tattoo",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I recommend messaging your tattoo artist a few days beforehand to confirm that they are still expecting you. This is especially important if you arranged your appointment a long time ago. It doesn’t happen to me, but from experience I know that mistakes can happen on either side."
+        },
+        {
+          "type": "paragraph",
+          "text": "On the day of your tattoo, you shouldn’t make any major changes to your usual daily routine. If you normally eat breakfast, have your breakfast as usual. If you don’t eat breakfast, don’t start just because someone recommended it. I’m perfectly fine with coffee, as long as you also stay hydrated and aren’t dehydrated."
+        },
+        {
+          "type": "paragraph",
+          "text": "Arrive at the studio on time, but I don’t recommend coming too early. Around five minutes before your appointment is ideal. If you arrive half an hour early, your tattoo artist probably won’t be too happy. They may be preparing, cleaning up, or having breakfast."
+        },
+        {
+          "type": "paragraph",
+          "text": "I recommend wearing dark, comfortable clothing. If we’re tattooing your entire arm up to the shoulder, a tank top is ideal, for example. If we’re tattooing your legs, you’ll appreciate wearing black shorts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Communicate any concerns you have to your tattoo artist. Don’t be afraid to ask questions."
+        }
+      ]
+    },
+    {
+      "id": "session",
+      "title": "What to Expect During the Tattoo Session",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A tattoo session can sometimes take several hours. For a full-day session, I usually allow approximately seven hours of actual tattooing, with only short breaks in between."
+        },
+        {
+          "type": "paragraph",
+          "text": "A fully charged phone or a book might come in handy."
+        },
+        {
+          "type": "paragraph",
+          "text": "I personally spend most of the time chatting with my clients, if they are comfortable with that. During longer sessions, I also like to put on movies. However, if you prefer some peace and quiet and don’t feel like talking, I completely respect that."
+        }
+      ]
+    },
+    {
+      "id": "immediate-aftercare",
+      "title": "Immediate Aftercare",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I wouldn’t plan anything important for the rest of the day after your tattoo. The best thing to do is go home, have a proper meal, and rest."
+        },
+        {
+          "type": "paragraph",
+          "text": "A fresh tattoo is an injury to the skin that needs time and suitable conditions to regenerate (more details at the end of this guide). I therefore don’t recommend making the healing process unnecessarily difficult through excessive physical activity, alcohol, or unsuitable environments."
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "title": "Pricing and Payment",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Before we start tattooing, it’s a good idea to agree on a price range or maximum budget together."
+        },
+        {
+          "type": "paragraph",
+          "text": "You can find my current price list on Instagram. However, I price every tattoo individually, so we always need to agree on the final price for your specific project."
+        },
+        {
+          "type": "paragraph",
+          "text": "As for payment, I’m happy to accept both cash and QR code payments."
+        },
+        {
+          "type": "paragraph",
+          "text": "In general, price often reflects quality. If you want your tattoo to look really good and expect a professional approach, it probably won’t be the cheapest option."
+        },
+        {
+          "type": "paragraph",
+          "text": "On the other hand, if your priority is getting the lowest possible price and you don’t mind the risk of being unhappy with the result, working with an artist who may not have enough experience, or having to get your tattoo corrected in the future, you will certainly find cheaper alternatives."
+        },
+        {
+          "type": "paragraph",
+          "text": "There are plenty of beginners and less experienced tattoo artists out there, so you won’t have any trouble finding one in that price range."
+        }
+      ]
+    },
+    {
+      "id": "design-and-placement",
+      "title": "Design, Size and Placement",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "In my case, you are welcome to bring your own design. If it is technically possible and works well as a tattoo, I have no problem tattooing a design that I didn’t create myself."
+        },
+        {
+          "type": "paragraph",
+          "text": "Designs generated by AI are also acceptable to me. However, they usually need some adjustments. Most often, this involves removing excessive detail or correcting anatomical mistakes that AI sometimes produces."
+        },
+        {
+          "type": "paragraph",
+          "text": "There are many tattoo artists who only tattoo their own designs or refuse designs generated by AI or copied from Pinterest and other online sources. I therefore recommend checking in advance whether the particular artist is willing to work with your request."
+        },
+        {
+          "type": "paragraph",
+          "text": "Size and placement are sometimes crucial to making a design look good. Ideally, you should have an idea of where you want your tattoo. At the same time, it’s worth listening to advice from someone who has experience with composition and tattoo placement."
+        },
+        {
+          "type": "paragraph",
+          "text": "However, don’t let anyone pressure you into something you won’t feel comfortable with in the end. Personally, I prefer an approach where the client is completely happy with the design, its size, and its placement before we start tattooing."
+        },
+        {
+          "type": "paragraph",
+          "text": "Before we begin the actual tattooing, I always apply a stencil to your skin first. This is an important moment when you can see what the tattoo will actually look like on your body. Take your time with this. Check the spelling, size, placement, and overall appearance. If you want to change anything, this is the right moment to do it."
+        }
+      ]
+    },
+    {
+      "id": "creating-your-design",
+      "title": "Creating Your Design",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "We can have a consultation in person at the studio, which makes particular sense for larger and more complicated projects. However, we can also arrange everything online."
+        },
+        {
+          "type": "paragraph",
+          "text": "The more detailed your description of what you have in mind, the better I will understand your expectations and the better I will be able to meet them. So don’t be afraid to go into detail. Feel free to attach photos, videos, or other visual references that will help me understand what you like."
+        },
+        {
+          "type": "paragraph",
+          "text": "The tattoo appointment needs to be arranged at the same time as we discuss the design."
+        },
+        {
+          "type": "paragraph",
+          "text": "If you prefer an in-person consultation, we can sit down together, I’ll listen to your ideas and write down everything important. We’ll arrange the appointment, discuss possible approaches, and I’ll give you an idea of what the final design could look like."
+        },
+        {
+          "type": "paragraph",
+          "text": "However, I create the complete design afterwards, on my own. I need peace, concentration, and enough space to think everything through and develop the design to the best of my ability."
+        },
+        {
+          "type": "paragraph",
+          "text": "I always create designs a few days before the agreed tattoo appointment and send clients a preview. As a rule, I don’t create designs without a confirmed appointment."
+        },
+        {
+          "type": "paragraph",
+          "text": "If your tattoo has personal meaning, I’d be happy to hear about it. It helps me understand what’s important to you, what I should emphasize in the design, what I should leave out, and what I should focus on."
+        },
+        {
+          "type": "paragraph",
+          "text": "Personal meaning can sometimes be a useful guide when creating a design."
+        },
+        {
+          "type": "paragraph",
+          "text": "However, if your tattoo doesn’t have any deeper meaning, that’s absolutely fine too. I have plenty of tattoos myself that don’t have any particular meaning, and I simply see them as visual elements on my body."
+        },
+        {
+          "type": "paragraph",
+          "text": "A tattoo can have meaning, but it doesn’t have to. Neither option is better than the other."
+        },
+        {
+          "type": "paragraph",
+          "text": "I’d also like to point out that a small, complicated tattoo with lots of detail can take just as much time to create as a large, simple tattoo without much detail. The price will be the same, which might seem confusing at first."
+        }
+      ]
+    },
+    {
+      "id": "tattoo-styles",
+      "title": "What Kind of Tattoos Do I Do?",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I personally focus mainly on designs built around detail. I enjoy detailed realism and particularly like combining it with geometric elements."
+        },
+        {
+          "type": "paragraph",
+          "text": "I prefer more open compositions that respect the empty space between individual elements. I don’t feel the need to fill every empty space with colour or additional details. Negative space is just as important to me as the tattoo itself."
+        },
+        {
+          "type": "paragraph",
+          "text": "You can see this approach quite clearly in my Instagram portfolio."
+        },
+        {
+          "type": "paragraph",
+          "text": "I also enjoy smaller tattoos, such as lettering, abstract strokes, symbols, and anime designs. In fact, I enjoy tattooing almost everything, with the exception of colour realism."
+        }
+      ]
+    },
+    {
+      "id": "longevity",
+      "title": "Fine Lines, Small Details and Tattoo Longevity",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "When it comes to extra-fine elements such as thin lines, dots, subtle shading, or very small details, I definitely don’t shy away from them."
+        },
+        {
+          "type": "paragraph",
+          "text": "I would say that the technique I use to create this type of tattoo is reliable. I can work with delicate elements in a way that helps the tattoo retain its quality after healing and keeps the individual details visible."
+        },
+        {
+          "type": "paragraph",
+          "text": "However, it’s important to consider one major factor: tattoos naturally change over time. The pigment in your skin is gradually affected by your immune system, sunlight, and other biological processes. Its saturation, sharpness, and overall structure therefore change over the years."
+        },
+        {
+          "type": "paragraph",
+          "text": "Skin is not paper. Even when we do our best to create a tattoo that will remain as stable as possible, changes will be noticeable after ten or twenty years."
+        },
+        {
+          "type": "paragraph",
+          "text": "These changes tend to be more visible in delicate shading, thin lines, and miniature designs than in larger, bolder, and simpler tattoos."
+        },
+        {
+          "type": "paragraph",
+          "text": "This doesn’t mean that fine-line tattoos are pointless or won’t last. It simply means you need to have realistic expectations and understand that their appearance will naturally evolve throughout your life."
+        }
+      ]
+    },
+    {
+      "id": "client-approach",
+      "title": "My Approach to Clients",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I place great importance on a professional approach and the complete satisfaction of my clients."
+        },
+        {
+          "type": "paragraph",
+          "text": "I do my best to accommodate everyone, but if I know I won’t be able to meet a particular request to the client’s expectations, I’d rather admit it and step away from the project than make unpleasant compromises. I prefer complete honesty on both sides."
+        },
+        {
+          "type": "paragraph",
+          "text": "I take my work seriously, pay attention to detail, and like to plan everything in advance. I send designs to clients a few days before their appointment so that we have enough time for any necessary adjustments."
+        },
+        {
+          "type": "paragraph",
+          "text": "On the day of the tattoo, I’m always at the studio before the client and prepare everything in advance. I offer my clients coffee, and their comfort is important to me."
+        },
+        {
+          "type": "paragraph",
+          "text": "I don’t mind if you bring someone with you to the studio. However, for practical reasons, it’s not suitable to bring more than one person, an active dog, or a small child."
+        },
+        {
+          "type": "paragraph",
+          "text": "My goal isn’t just to create a beautiful tattoo. I want the entire process, from our first communication to the actual tattooing, to go smoothly and leave both of us completely satisfied with the result."
+        }
+      ]
+    },
+    {
+      "id": "materials",
+      "title": "The Materials I Use",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "When it comes to the equipment and materials I use for tattooing, I choose products with a focus on quality, safety, and traceability of origin."
+        },
+        {
+          "type": "paragraph",
+          "text": "I prefer products that comply with the relevant European standards. I’m not a fan of cheap, questionable products with no clear origin, ingredients, or manufacturer information."
+        },
+        {
+          "type": "paragraph",
+          "text": "In recent years, the European Union has significantly tightened the regulation of chemicals used in tattoo inks, and I believe this is a step in the right direction. The REACH regulation restricts thousands of hazardous substances based on scientific studies that identified potentially dangerous substances, including carcinogenic aromatic amines, heavy metals, and other unwanted impurities. The aim of the regulation is to limit the use of hazardous chemicals, improve the safety of tattoo inks, and better protect clients’ health."
+        },
+        {
+          "type": "paragraph",
+          "text": "I exclusively use inks intended for the European market and compliant with REACH."
+        },
+        {
+          "type": "paragraph",
+          "text": "To give you an idea, tattoo ink is not just pigment. It is a mixture of several ingredients, and its exact composition varies depending on the manufacturer and the specific colour."
+        },
+        {
+          "type": "paragraph",
+          "text": "Black ink usually uses carbon black as its pigment. White ink most commonly contains titanium dioxide. Red inks can contain various organic pigments, such as azo pigments or quinacridones."
+        },
+        {
+          "type": "paragraph",
+          "text": "In addition to the pigments themselves, inks also contain a carrier liquid, which is usually water-based. They may also contain glycerin, propylene glycol, or alcohol to adjust the consistency and properties of the mixture. Depending on the specific product, dispersing agents, stabilizers, preservatives, and pH regulators may also be added."
+        },
+        {
+          "type": "paragraph",
+          "text": "That’s why it’s important to know where the ink comes from and exactly what it contains."
+        },
+        {
+          "type": "paragraph",
+          "text": "I source tattoo butter, needles, gloves, and other consumables from trusted manufacturers with an established reputation whose products meet the relevant safety requirements."
+        },
+        {
+          "type": "paragraph",
+          "text": "After all, everything I work with comes into contact with broken human skin. I therefore expect an appropriate level of quality from the materials I use."
+        }
+      ]
+    },
+    {
+      "id": "aftercare",
+      "title": "Aftercare",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I apply a healing film known as Second Skin to most fresh tattoos."
+        },
+        {
+          "type": "paragraph",
+          "text": "It is a special transparent medical film that acts as a protective foil. It can remain attached to the skin for several days. Similar types of film are used in the treatment of burns."
+        },
+        {
+          "type": "paragraph",
+          "text": "It works very well for fresh tattoos. It creates a protective barrier against external contaminants while allowing the skin to regenerate naturally. A small amount of wound fluid (plasma) mixed with leftover ink may collect underneath the film. This is normal during the first few days and is a natural part of the healing process."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sometimes, however, I decide that an absorbent diaper is more suitable. This is typically the case with larger designs where the skin has been more extensively damaged and may produce a greater amount of wound fluid. In such cases, a sealed healing film may not be the ideal option."
+        },
+        {
+          "type": "paragraph",
+          "text": "I have used and tested both methods many times, and both have proven effective."
+        },
+        {
+          "type": "heading",
+          "text": "If I give you an absorbent diaper:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Keep it on your tattoo overnight. In the morning, carefully remove it, wash the tattoo with lukewarm water and a gentle, fragrance-free soap. Then let it air-dry or gently pat it dry with a clean towel and apply the first layer of healing cream."
+        },
+        {
+          "type": "heading",
+          "text": "If I apply Second Skin healing film:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Do not cover the film with anything else or damage its surface. Remove it after 1–3 days. A short shower while wearing the film is fine."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the film starts peeling off significantly, water gets underneath it, or it begins to irritate your skin, you need to remove it."
+        },
+        {
+          "type": "paragraph",
+          "text": "After removing the film, wash the tattoo gently with lukewarm water and fragrance-free soap, then pat it dry with a clean towel. Apply the first layer of healing cream a few hours after removing the film, or even the following day."
+        },
+        {
+          "type": "heading",
+          "text": "Further care without a dressing:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Showering is fine. However, avoid hot water and soaking in a bath for long periods."
+        },
+        {
+          "type": "paragraph",
+          "text": "Keep your tattoo clean and dry, and protect it from unnecessary friction and contact with unclean surfaces. If you need to cover it, use clean cotton clothing."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ideally, use Bepanthen Tattoo (or another Bepanthen product) or a different cream specifically designed for fresh tattoo aftercare."
+        },
+        {
+          "type": "paragraph",
+          "text": "Apply only a thin layer twice a day and spread it evenly. There is no need to keep applying cream to your tattoo throughout the day. A layer that is too thick can unnecessarily soften and over-moisturize the skin. Use the healing cream for approximately seven days, then I recommend switching to any regular moisturizer."
+        },
+        {
+          "type": "paragraph",
+          "text": "I don’t recommend using petroleum jelly, homemade hemp ointments, or Indulona on a fresh tattoo. These products are suitable only after the first week, when the tattoo simply needs to be moisturized."
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "title": "Sports, Rest and Your Daily Routine",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Avoid sports and physical activities for the first two days."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pay particular attention to excessive sweating, friction, and stretching of the tattooed skin. Also avoid activities in environments where your fresh tattoo could come into contact with unclean surfaces."
+        },
+        {
+          "type": "paragraph",
+          "text": "I consider the third day after getting tattooed the earliest possible time to return to light physical activity. However, it always depends on the size of the tattoo, its placement, how well it is healing, and the intensity of the sport you don’t want to go without for any longer."
+        },
+        {
+          "type": "paragraph",
+          "text": "You also need to think about the environment. If you have a three-day-old tattoo, playing beach volleyball in direct sunlight, swimming, or sparring in a boxing ring is not a good idea. On the other hand, a light run or a workout in a clean environment is acceptable."
+        }
+      ]
+    },
+    {
+      "id": "sun-and-water",
+      "title": "Sauna, Swimming and Sun Exposure",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I recommend avoiding saunas and swimming for at least four weeks, ideally until the skin has healed completely."
+        },
+        {
+          "type": "paragraph",
+          "text": "You should also avoid direct sunlight and tanning beds. When it comes to sunlight, the rule is simple: the longer you can keep your fresh tattoo out of the sun, the better."
+        },
+        {
+          "type": "paragraph",
+          "text": "The surface of a tattoo usually heals within a few weeks, but deeper skin regeneration continues for several months."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sunbathing is generally not good for your skin or the longevity of your tattoo. UV radiation can gradually cause the pigment to fade and affect the appearance of the design."
+        },
+        {
+          "type": "paragraph",
+          "text": "Once the surface of the tattoo has healed (after 7 days), I recommend using SPF 50 sunscreen whenever you spend time in the sun."
+        }
+      ]
+    },
+    {
+      "id": "healing-concerns",
+      "title": "If Something Goes Wrong",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "If you experience any complications, unusual reactions, or simply aren’t sure whether everything is healing properly, send me a message or give me a call."
+        },
+        {
+          "type": "paragraph",
+          "text": "I’ll be happy to advise you and help resolve the situation."
+        },
+        {
+          "type": "paragraph",
+          "text": "If you notice pus, develop a fever, or experience any other signs of infection, don’t wait for my response. Contact a doctor."
+        },
+        {
+          "type": "paragraph",
+          "text": "Proper tattoo aftercare is a shared responsibility. I’ll take care of the quality of the tattoo and the appropriate protective dressing, while you make sure your tattoo has the best possible conditions to heal. The way you take care of it during the healing process will affect how your tattoo looks for the rest of your life."
+        }
+      ]
+    }
+  ]
+}
