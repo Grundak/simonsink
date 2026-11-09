@@ -3,14 +3,22 @@ import { useState } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-import Image from "next/image";
 import Link from "next/link";
 import { useLang } from "./LanguageContext";
+
+export type GalleryImage = {
+  src: string;
+  alt: string;
+  width?: number;
+  height?: number;
+  blurDataURL?: string;
+  variants?: { src: string; width: number; height: number }[];
+};
 
 export default function Gallery({
   images,
 }: {
-  images: { src: string; alt: string }[];
+  images: GalleryImage[];
 }) {
   const { lang } = useLang();
   const reducedMotion = useReducedMotion();
@@ -54,22 +62,30 @@ export default function Gallery({
                 setOpen(true);
               }}
               className="relative block w-full h-full focus:outline-none"
+              style={{
+                backgroundImage: image.blurDataURL ? `url(${image.blurDataURL})` : undefined,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
             >
-              <Image
-                src={image.src}
+              <img
+                src={image.variants?.[1]?.src ?? image.variants?.[0]?.src ?? image.src}
+                srcSet={image.variants?.map((variant) => `${variant.src} ${variant.width}w`).join(", ")}
                 alt={image.alt}
-                fill
+                width={image.width}
+                height={image.height}
                 sizes={
                   imageIndex % 3 === 0
                     ? "(min-width: 1152px) 574px, (min-width: 640px) 50vw, 100vw"
                     : "(min-width: 1152px) 285px, (min-width: 768px) 25vw, (min-width: 640px) 50vw, 100vw"
                 }
-                priority={imageIndex === 0}
+                fetchPriority={imageIndex === 0 ? "high" : "auto"}
                 className={`
-                  w-full h-full object-cover transition duration-200
+                  absolute inset-0 w-full h-full object-cover transition duration-200
                   hover:brightness-90 hover:scale-[1.02]
                 `}
-                loading={imageIndex < 3 ? "eager" : "lazy"}
+                loading={imageIndex < 6 ? "eager" : "lazy"}
+                decoding="async"
               />
             </button>
           </div>
@@ -78,7 +94,15 @@ export default function Gallery({
       <Lightbox
         open={open}
         close={() => setOpen(false)}
-        slides={images.map((img) => ({ src: img.src, alt: img.alt }))}
+        slides={images.map((image) => ({
+          src: image.src,
+          alt: image.alt,
+          width: image.width,
+          height: image.height,
+          srcSet: image.variants && image.width && image.height
+            ? [...image.variants, { src: image.src, width: image.width, height: image.height }]
+            : image.variants,
+        }))}
         index={index}
         carousel={{ preload: 1 }}
         on={{ view: ({ index }) => setIndex(index) }}

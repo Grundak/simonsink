@@ -18,6 +18,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
+## Gallery photos
+
+Original photos live in `public/images/gallery`. `npm run dev` and `npm run build` automatically prepare responsive WebP copies and small embedded previews in `public/images/gallery/optimized`. These generated files are ignored by Git; originals remain unchanged. Both the gallery and lightbox use the prepared copies without resizing photos during a page request.
+
+After adding or replacing photos while the development server is running, run `npm run prepare:gallery` and refresh the gallery. Unchanged photos are reused. The display order is configured in `app/gallery/page.tsx`.
+
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More

@@ -1,17 +1,17 @@
 "use client";
 import { useLang } from "./components/LanguageContext";
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import Link from "next/link";
 
 export default function Home() {
   const { lang } = useLang();
+  const reducedMotion = useReducedMotion();
 
   return (
     <motion.section
-      initial={{ x: "100vw", opacity: 0 }}
-      animate={{ x: 0, opacity: 1 }}
-      exit={{ x: "-100vw", opacity: 0 }}
-      transition={{ duration: 0.6, ease: "easeInOut" }}
+      initial={{ opacity: 0, y: reducedMotion ? 0 : 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: reducedMotion ? 0 : 0.6, ease: "easeInOut" }}
       className="flex flex-col items-center justify-center text-center py-8 dark:bg-black"
       style={{ overflow: "hidden" }}
     >

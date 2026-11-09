@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import Gallery from "../components/Gallery";
+import Gallery, { type GalleryImage } from "../components/Gallery";
 
 const imageOrder = [
   "IMG_1848.webp",
@@ -33,23 +33,27 @@ const imageOrder = [
 const imagePositions = new Map(imageOrder.map((file, index) => [file, index]));
 
 const dir = path.join(process.cwd(), "public/images/gallery");
-const files = fs
-  .readdirSync(dir)
-  .filter((file) =>
-    [".webp", ".jpg", ".jpeg", ".png"].includes(path.extname(file).toLowerCase())
-  )
-  .sort(
-    (left, right) =>
-      (imagePositions.get(left) ?? imageOrder.length) -
-        (imagePositions.get(right) ?? imageOrder.length) ||
-      left.localeCompare(right)
-  );
-
-const images = files.map((file) => ({
-  src: `/images/gallery/${file}`,
-  alt: `Originální tetování od Šimona Holomka – ukázka motivu ${file.replace(/\.[^/.]+$/, "")} | Tattoo Gallery Brno a Neon Spot Hodonín | Precizní práce, kreativní návrhy, profesionální tetování.`,
-}));
 
 export default function GalleryPage() {
+  const prepared: Record<string, Omit<GalleryImage, "src" | "alt">> = JSON.parse(
+    fs.readFileSync(path.join(dir, "optimized/manifest.json"), "utf8")
+  );
+  const files = fs
+    .readdirSync(dir)
+    .filter((file) =>
+      [".webp", ".jpg", ".jpeg", ".png"].includes(path.extname(file).toLowerCase())
+    )
+    .sort(
+      (left, right) =>
+        (imagePositions.get(left) ?? imageOrder.length) -
+          (imagePositions.get(right) ?? imageOrder.length) ||
+        left.localeCompare(right)
+    );
+  const images = files.map((file) => ({
+    ...prepared[file],
+    src: `/images/gallery/${file}`,
+    alt: `Originální tetování od Šimona Holomka – ukázka motivu ${file.replace(/\.[^/.]+$/, "")} | Tattoo Gallery Brno a Neon Spot Hodonín | Precizní práce, kreativní návrhy, profesionální tetování.`,
+  }));
+
   return <Gallery images={images} />;
 }
