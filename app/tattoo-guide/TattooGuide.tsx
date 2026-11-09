@@ -16,7 +16,7 @@ const labels = {
     top: "Back to top",
   },
   CS: {
-    title: "Průvodce tetováním",
+    title: "Tattoo Guide",
     intro: "Od prvního nápadu až po péči o tetování. Projdi si vše v klidu, najdi, co tě zajímá, a seznam se s celým procesem.",
     contents: "V tomto průvodci",
     questions: "Máš otázku?",

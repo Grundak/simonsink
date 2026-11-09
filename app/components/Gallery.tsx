@@ -1,8 +1,9 @@
 "use client";
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
+import Image from "next/image";
 import Link from "next/link";
 import { useLang } from "./LanguageContext";
 
@@ -12,15 +13,15 @@ export default function Gallery({
   images: { src: string; alt: string }[];
 }) {
   const { lang } = useLang();
+  const reducedMotion = useReducedMotion();
   const [open, setOpen] = useState(false);
   const [index, setIndex] = useState(0);
 
   return (
     <motion.section
-      initial={{ x: "100vw", opacity: 0 }}
-      animate={{ x: 0, opacity: 1 }}
-      exit={{ x: "-100vw", opacity: 0 }}
-      transition={{ duration: 0.6, ease: "easeInOut" }}
+      initial={{ opacity: 0, y: reducedMotion ? 0 : 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: reducedMotion ? 0 : 0.6, ease: "easeInOut" }}
       className="py-8"
       style={{ overflow: "hidden" }}
       id="gallery"
@@ -31,36 +32,44 @@ export default function Gallery({
           grid-cols-1
           sm:grid-cols-2
           md:grid-cols-4
+          md:auto-rows-fr
           gap-1
           max-w-6xl
           mx-auto
         "
       >
-        {images.map((img, i) => (
+        {images.map((image, imageIndex) => (
           <div
-            key={img.src}
+            key={image.src}
             className={`
               overflow-hidden shadow-sm
-              ${i % 3 === 0 ? "md:col-span-2 md:row-span-2" : ""}
-              ${i % 3 === 0 ? "aspect-[3/4] md:aspect-auto" : "aspect-[3/4]"}
+              ${imageIndex % 3 === 0 ? "md:col-span-2 md:row-span-2" : ""}
+              ${imageIndex % 3 === 0 ? "aspect-[3/4] md:aspect-auto" : "aspect-[3/4]"}
             `}
           >
             <button
               type="button"
               onClick={() => {
-                setIndex(i);
+                setIndex(imageIndex);
                 setOpen(true);
               }}
-              className="block w-full h-full focus:outline-none"
+              className="relative block w-full h-full focus:outline-none"
             >
-              <img
-                src={img.src}
-                alt={img.alt}
+              <Image
+                src={image.src}
+                alt={image.alt}
+                fill
+                sizes={
+                  imageIndex % 3 === 0
+                    ? "(min-width: 1152px) 574px, (min-width: 640px) 50vw, 100vw"
+                    : "(min-width: 1152px) 285px, (min-width: 768px) 25vw, (min-width: 640px) 50vw, 100vw"
+                }
+                priority={imageIndex === 0}
                 className={`
                   w-full h-full object-cover transition duration-200
                   hover:brightness-90 hover:scale-[1.02]
                 `}
-                loading="lazy"
+                loading={imageIndex < 3 ? "eager" : "lazy"}
               />
             </button>
           </div>
@@ -71,6 +80,7 @@ export default function Gallery({
         close={() => setOpen(false)}
         slides={images.map((img) => ({ src: img.src, alt: img.alt }))}
         index={index}
+        carousel={{ preload: 1 }}
         on={{ view: ({ index }) => setIndex(index) }}
       />
             <div className="mt-12 flex justify-center">

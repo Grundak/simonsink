@@ -1,10 +1,11 @@
 "use client";
 import { useLang } from "./LanguageContext";
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import Link from "next/link";
 
 export default function ContactForm() {
   const { lang } = useLang();
+  const reducedMotion = useReducedMotion();
 
   const labels = {
     CS: {
@@ -43,10 +44,9 @@ export default function ContactForm() {
 
   return (
     <motion.section
-      initial={{ x: "100vw", opacity: 0 }}
-      animate={{ x: 0, opacity: 1 }}
-      exit={{ x: "-100vw", opacity: 0 }}
-      transition={{ duration: 0.6, ease: "easeInOut" }}
+      initial={{ opacity: 0, y: reducedMotion ? 0 : 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: reducedMotion ? 0 : 0.6, ease: "easeInOut" }}
       className="max-w-xl mx-auto py-12 px-4"
       style={{ overflow: "hidden" }}
     >
@@ -79,7 +79,7 @@ export default function ContactForm() {
         />
         <button
           type="submit"
-          className="bg-black text-white px-6 py-2 rounded hover:bg-gray-800 transition"
+          className="inline-flex min-h-11 shrink-0 items-center justify-center gap-3 rounded-full bg-black px-6 py-3 font-semibold text-white transition hover:bg-neutral-700 focus-visible:outline-2 focus-visible:outline-offset-4 dark:bg-white dark:text-black dark:hover:bg-neutral-200"
         >
           {labels[lang].send}
         </button>
@@ -112,13 +112,11 @@ export default function ContactForm() {
             <div className="mt-12 flex justify-center">
         <Link
           href="/about"
-          className="inline-flex items-center px-6 py-3 rounded-full bg-black text-white dark:bg-white dark:text-black text-xl font-semibold shadow hover:bg-gray-700 dark:hover:bg-gray-200 transition"
+          className="inline-flex min-h-11 shrink-0 items-center gap-3 rounded-full bg-black px-6 py-3 font-semibold text-white transition hover:bg-neutral-700 focus-visible:outline-2 focus-visible:outline-offset-4 dark:bg-white dark:text-black dark:hover:bg-neutral-200"
           aria-label={lang === "EN" ? "About me" : "O mně"}
         >
           {lang === "EN" ? "About me" : "O mně"}
-          <span className="ml-3">
-            <i className="fa-solid fa-arrow-right"></i>
-          </span>
+          <span aria-hidden="true">→</span>
         </Link>
       </div>
     </motion.section>

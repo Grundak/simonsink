@@ -31,7 +31,7 @@ export default function Home() {
           href="https://simons-ink.reservio.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block px-8 py-3 bg-black text-white text-2xl font-semibold uppercase rounded hover:bg-gray-500 transition dark:bg-white dark:text-black dark:hover:bg-gray-200"
+          className="inline-flex min-h-11 shrink-0 items-center gap-3 rounded-full bg-black px-6 py-3 font-semibold text-white transition hover:bg-neutral-700 focus-visible:outline-2 focus-visible:outline-offset-4 dark:bg-white dark:text-black dark:hover:bg-neutral-200"
         >
           {lang === "EN" ? "Book here" : "Objednej se"}
         </a>
@@ -105,13 +105,11 @@ export default function Home() {
       <div className="mt-12 flex justify-center">
         <Link
           href="/gallery"
-          className="inline-flex items-center px-6 py-3 rounded-full bg-black text-white dark:bg-white dark:text-black text-xl font-semibold shadow hover:bg-gray-700 dark:hover:bg-gray-200 transition"
+          className="inline-flex min-h-11 shrink-0 items-center gap-3 rounded-full bg-black px-6 py-3 font-semibold text-white transition hover:bg-neutral-700 focus-visible:outline-2 focus-visible:outline-offset-4 dark:bg-white dark:text-black dark:hover:bg-neutral-200"
           aria-label={lang === "EN" ? "Go to gallery" : "Přejít do galerie"}
         >
-          {lang === "EN" ? "Gallery" : "Galerie"}{" "}
-          <span className="ml-3">
-            <i className="fa-solid fa-arrow-right"></i>
-          </span>
+          {lang === "EN" ? "Gallery" : "Galerie"}
+          <span aria-hidden="true">→</span>
         </Link>
       </div>
     </motion.section>

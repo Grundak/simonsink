@@ -2,10 +2,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useLang } from "./LanguageContext";
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 
 export default function AboutSection() {
   const { lang } = useLang();
+  const reducedMotion = useReducedMotion();
 
   const paragraphs = {
     CS: [
@@ -25,53 +26,53 @@ export default function AboutSection() {
   };
 
   return (
-    <motion.section
-      initial={{ x: "100vw", opacity: 0 }}
-      animate={{ x: 0, opacity: 1 }}
-      exit={{ x: "-100vw", opacity: 0 }}
-      transition={{ duration: 0.6, ease: "easeInOut" }}
-      className="py-12 px-4 max-w-4xl mx-auto"
-      style={{ overflow: "hidden" }}
+    <motion.main
+      initial={{ opacity: 0, y: reducedMotion ? 0 : 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: reducedMotion ? 0 : 0.6, ease: "easeInOut" }}
+      className="mx-auto w-full min-w-0 max-w-6xl px-4 py-10 sm:px-6 sm:py-16"
     >
-      {/* Wrapper pro obrázek + text */}
-      <div className="flex flex-col md:flex-row items-center justify-center">
-        <div className="w-full md:w-1/2 flex justify-center md:justify-start mb-8 md:mb-0">
+      <header className="mb-10 max-w-3xl border-b border-black pb-8 sm:mb-12 sm:pb-10 dark:border-white">
+        <p
+          className="mb-4 text-sm uppercase tracking-[0.2em] text-neutral-500 dark:text-neutral-400"
+          style={{ fontFamily: "Copperplate, sans-serif" }}
+        >
+          Simon&apos;s Ink
+        </p>
+        <h1 className="text-4xl leading-tight font-bold sm:text-5xl lg:text-6xl">
+          Šimon Holomek
+        </h1>
+      </header>
+
+      <div className="grid min-w-0 gap-10 lg:grid-cols-[20rem_minmax(0,1fr)] lg:gap-12 xl:gap-16">
+        <div className="w-full max-w-sm lg:sticky lg:top-8 lg:self-start">
           <Image
             src="/images/about.webp"
             alt="About Simon"
             width={800}
             height={1000}
-            className="rounded-lg object-cover max-w-[400px] w-full h-auto"
+            className="h-auto w-full rounded-lg border border-neutral-200 object-cover dark:border-neutral-800"
             priority
           />
         </div>
-        <div className="w-full md:w-2/3 text-center md:text-left md:pl-8">
-          <h1 className="text-3xl font-bold mb-4 hidden">
-            {lang === "EN" ? "Šimon Holomek" : "Šimon Holomek"}
-          </h1>
-          {paragraphs[lang].map((text, idx) => (
-            <div key={idx} className="w-full">
-              <p className="text-lg mb-4">{text}</p>
-              {idx < paragraphs[lang].length - 1 && (
-                <span className="block w-full mx-0 my-4 h-1 bg-black dark:bg-white" />
-              )}
-            </div>
-          ))}
+        <div className="min-w-0 max-w-[44rem]">
+          <div className="space-y-5 border-b border-neutral-200 pb-10 text-base leading-8 text-neutral-700 sm:pb-14 sm:text-lg dark:border-neutral-800 dark:text-neutral-300">
+            {paragraphs[lang].map((text, index) => (
+              <p key={index}>{text}</p>
+            ))}
+          </div>
+          <div className="mt-8 flex justify-start sm:mt-10">
+            <Link
+              href="/tattoo-guide"
+              className="inline-flex min-h-11 shrink-0 items-center gap-3 rounded-full bg-black px-6 py-3 font-semibold text-white transition hover:bg-neutral-700 focus-visible:outline-2 focus-visible:outline-offset-4 dark:bg-white dark:text-black dark:hover:bg-neutral-200"
+              aria-label={lang === "EN" ? "Go to Tattoo Guide" : "Přejít na Tattoo Guide"}
+            >
+              Tattoo Guide
+              <span aria-hidden="true">→</span>
+            </Link>
+          </div>
         </div>
       </div>
-      {/* Buttonek pod sekcí, vždy uprostřed */}
-      <div className="w-full flex justify-center mt-12">
-        <Link
-          href="/"
-          className="inline-flex items-center px-6 py-3 rounded-full bg-black text-white dark:bg-white dark:text-black text-xl font-semibold shadow hover:bg-gray-700 dark:hover:bg-gray-200 transition"
-          aria-label={lang === "EN" ? "Back to Simon's Ink homepage" : "Zpět na úvodní stránku Simon's Ink"}
-        >
-          Simon&apos;s Ink
-          <span className="ml-3">
-            <i className="fa-solid fa-arrow-right"></i>
-          </span>
-        </Link>
-      </div>
-    </motion.section>
+    </motion.main>
   );
 }

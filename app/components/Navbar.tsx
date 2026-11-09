@@ -15,7 +15,7 @@ export default function Navbar() {
     { href: "/gallery", label: lang === "EN" ? "Gallery" : "Galerie" },
     { href: "/contact", label: lang === "EN" ? "Contact" : "Kontakt" },
     { href: "/about", label: lang === "EN" ? "About" : "O mně" },
-    { href: "/tattoo-guide", label: lang === "EN" ? "Tattoo Guide" : "Průvodce tetováním" },
+    { href: "/tattoo-guide", label: "Tattoo Guide" },
   ];
 
   useEffect(() => {
